@@ -74,8 +74,7 @@ searchBtn.addEventListener("click",() => {
 
     const filteredStudentData = students.filter((students) => {
         return (
-            students.name.toLowerCase().includes(query) || students.marks.toString().includes(query) || students.class.toLowerCase().includes(query) || students.address.toLowerCase().includes(query)
-        );
+            students.name.toLowerCase().includes(query) || students.marks.toString().includes(query) || students.class.toLowerCase().includes(query));
     });
     renderStudent(filteredStudentData)
 });
