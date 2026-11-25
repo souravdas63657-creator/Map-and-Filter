@@ -110,17 +110,17 @@ header{
     #card-container{
     margin-top: 200px;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: 1rem;
     
 }
 }
-@media (max-width: 375px){
+@media (max-width: 395px){
     #search-box{
         width: 120px;
     }
     .sub-header2{
-        justify-content: space-between;
+        justify-content: center;
     }
     .login{
     border: none;
