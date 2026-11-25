@@ -82,6 +82,7 @@ header{
 
 }
 #card-container{
+    width: 100%;
     margin-top: 200px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,0.4fr));
@@ -116,7 +117,10 @@ header{
 }
 @media (max-width: 375px){
     #search-box{
-        width: 130px;
+        width: 120px;
+    }
+    .sub-header2{
+        justify-content: space-between;
     }
     .login{
     border: none;
